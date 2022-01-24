@@ -7,10 +7,11 @@ This list covers most Split Learning works. We also include some Federated Learn
 
 ## Category
 - ### [Split Learning Schemes](#split-learning-schemes)
-    - #### Original Split Learning
+    - #### Sequentual/Original Split Learning
     - #### Split Federated Learning
+    - #### Parallel Split Learning
     - #### Two-party Split Learning
-    - #### Spatio-Temporal Split Learning
+
 - ### [Evaluation Work](#evaluation-work)
 
 - ### [Communication Reduction](#communication-reduction)
@@ -26,7 +27,8 @@ This list covers most Split Learning works. We also include some Federated Learn
 *** Updated at 2022/1/23 ***
 
 ## [Split Learning Schemes](#split-learning-schemes)
-### Original Split Learning
+
+### Sequential Split Learning (Original)
 1. [Distributed learning of deep neural network over multiple agents](https://www.sciencedirect.com/science/article/abs/pii/S1084804518301590?via%3Dihub)
 
 2. [Split learning for health: Distributed deep learning
@@ -43,21 +45,22 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 4. [Privacy-Sensitive Parallel Split Learning](https://ieeexplore.ieee.org/abstract/document/9016486?)
 
+### Parallel Split Learning (SFL without "F")
+
+1. [Comparison of Privacy-Preserving Distributed Deep Learning Methods in Healthcare](https://arxiv.org/abs/2012.12591)
+
+2. [Spatio-Temporal Split Learning](https://ieeexplore.ieee.org/abstract/document/9525563)
+
+3. [Server-Side Local Gradient Averaging and Learning Rate Acceleration for Scalable Split Learning](https://arxiv.org/abs/2112.05929)
+
 ### Two-party Split Learning
 
 1. (ICLR '22) [Label Leakage and Protection in Two-party Split Learning](https://arxiv.org/abs/2102.08504)
 
 2. [Gradient Inversion Attack: Leaking Private Labels in Two-Party Split Learning](https://arxiv.org/abs/2112.01299)
 
-### Spatio-Temporal Split Learning
-
-1. [Spatio-Temporal Split Learning](https://ieeexplore.ieee.org/abstract/document/9525563)
-
-2. [Spatio-Temporal Split Learning for Autonomous Aerial Surveillance using Urban Air Mobility (UAM) Networks](https://arxiv.org/abs/2111.11856)
-
-3. [Spatio-Temporal Split Learning for Autonomous Aerial Surveillance using Urban Air Mobility (UAM) Networks](https://arxiv.org/abs/2111.11856)
-
 ## [Evaluation Work](#evaluation-work)
+
 1. [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://arxiv.org/abs/2003.13376)
 
 2. [Detailed comparison of communication efficiency of split learning and federated learning](https://arxiv.org/abs/1909.09145)
@@ -73,7 +76,6 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 ### HBC Server
 1. (CCS '15) [Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures](https://dl.acm.org/doi/abs/10.1145/2810103.2813677)
 
-
 2. (Asia-CCS '20) [Can We Use Split Learning on 1D CNN Models for Privacy Preserving Training?](https://dl.acm.org/doi/abs/10.1145/3320269.3384740?)
 
 
@@ -88,7 +90,10 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 ## [Input Leakge Mitigation](#input-leakge-mitigation)
 
 ### HBC Server
+
 1. (Asia-CCS '20, increasing depth and differential privacy) [Can We Use Split Learning on 1D CNN Models for Privacy Preserving Training?](https://dl.acm.org/doi/abs/10.1145/3320269.3384740?)
+
+2. [NoPeek: Information leakage reduction to share activations in distributed deep learning](https://ieeexplore.ieee.org/abstract/document/9346367?)
 
 ### Malicious Server
 1. [SplitGuard: Detecting and Mitigating Training-Hijacking Attacks in Split Learning](https://arxiv.org/abs/2108.09052)
