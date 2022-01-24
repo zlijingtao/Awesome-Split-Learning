@@ -26,6 +26,8 @@ This list covers most Split Learning works. We also include some Federated Learn
 
 *** Updated at 2022/1/23 ***
 
+# Split Learning
+
 <h2 id="#split-learning-schemes">Split Learning Schemes</h2>
 
 ### Sequential Split Learning (Original)
@@ -88,11 +90,38 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 1. (CCS '21) [Unleashing the Tiger: Inference Attacks on Split Learning](https://dl.acm.org/doi/abs/10.1145/3460120.3485259?)
 
 <h2 id="#input-leakge-mitigation">Input Leakage Mitigation</h2>
+
 ### HBC Server
 
 1. (Asia-CCS '20, increasing depth and differential privacy) [Can We Use Split Learning on 1D CNN Models for Privacy Preserving Training?](https://dl.acm.org/doi/abs/10.1145/3320269.3384740?)
 
 2. [NoPeek: Information leakage reduction to share activations in distributed deep learning](https://ieeexplore.ieee.org/abstract/document/9346367?)
 
+3. [NoPeek-Infer: Preventing face reconstruction attacks in distributed inference after on-premise training](https://ieeexplore.ieee.org/abstract/document/9667085)
+
 ### Malicious Server
+
 1. [SplitGuard: Detecting and Mitigating Training-Hijacking Attacks in Split Learning](https://arxiv.org/abs/2108.09052)
+
+
+# Federated Learning
+
+## Feature Inference Attack
+
+1. [Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning](https://arxiv.org/abs/1702.07464)
+
+2. [Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning](https://arxiv.org/abs/1812.00535)
+
+## Inversion Attack
+
+1. [Inverting Gradients -- How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
+
+2. [Deep Leakage from Gradients](https://link.springer.com/chapter/10.1007/978-3-030-63076-8_2)
+
+3. [See Through Gradients: Image Batch Recovery via GradInversion](https://openaccess.thecvf.com/content/CVPR2021/html/Yin_See_Through_Gradients_Image_Batch_Recovery_via_GradInversion_CVPR_2021_paper.html)
+
+4. [Gradient Inversion with Generative Image Prior](https://proceedings.neurips.cc/paper/2021/hash/fa84632d742f2729dc32ce8cb5d49733-Abstract.html)
+
+## Inversion Attack Mitigation
+
+1. [Soteria: Provable Defense Against Privacy Leakage in Federated Learning From Representation Perspective](https://openaccess.thecvf.com/content/CVPR2021/html/Sun_Soteria_Provable_Defense_Against_Privacy_Leakage_in_Federated_Learning_From_CVPR_2021_paper.html)
