@@ -1,4 +1,4 @@
-# SL_FL_survey
+# Awesome Split Learning
 A incomplete survey for Split Learning (comprehensive enough) and Federated Learning (only most representative works).
 
 This list covers most Split Learning works. We also include some Federated Learning works for a easy comparison with SL - are just a sub-list of https://github.com/chaoyanghe/Awesome-Federated-Learning.
@@ -13,7 +13,14 @@ This list covers most Split Learning works. We also include some Federated Learn
     - #### Spatio-Temporal Split Learning
 - ### [Evaluation Work](#evaluation-work)
 
+- ### [Communication Reduction](#communication-reduction)
 
+- ### [Input Leakage](#input-leakage)
+    - #### HBC Server
+    - #### Malicious Server
+- ### [Input Leakage Mitigation](#input-leakage-mitigation)
+    - #### HBC Server
+    - #### Malicious Server
 
 
 *** Updated at 2022/1/23 ***
@@ -38,6 +45,9 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 ### Two-party Split Learning
 
+1. (ICLR '22) [Label Leakage and Protection in Two-party Split Learning](https://arxiv.org/abs/2102.08504)
+
+2. [Gradient Inversion Attack: Leaking Private Labels in Two-Party Split Learning](https://arxiv.org/abs/2112.01299)
 
 ### Spatio-Temporal Split Learning
 
@@ -50,11 +60,11 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 3. [Advancements of Federated Learning Towards Privacy Preservation: From Federated Learning to Split Learning](https://link.springer.com/chapter/10.1007/978-3-030-70604-3_4)
 
-## Communication Reduction
+## [Communication Reduction](#communication-reduction)
 
 1. [Communication-Efficient Multimodal Split Learning for mmWave Received Power Prediction](https://ieeexplore.ieee.org/abstract/document/9026781?)
 
-## Input Leakge
+## [Input Leakge](#input-leakge)
 
 ### HBC Server
 1. (CCS '15) [Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures](https://dl.acm.org/doi/abs/10.1145/2810103.2813677)
@@ -71,16 +81,10 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 1. (CCS '21) [Unleashing the Tiger: Inference Attacks on Split Learning](https://dl.acm.org/doi/abs/10.1145/3460120.3485259?)
 
-## Input Leakage Mitigation
+## [Input Leakge Mitigation](#input-leakge-mitigation)
 
 ### HBC Server
 1. (Asia-CCS '20, increasing depth and differential privacy) [Can We Use Split Learning on 1D CNN Models for Privacy Preserving Training?](https://dl.acm.org/doi/abs/10.1145/3320269.3384740?)
 
 ### Malicious Server
 1. [SplitGuard: Detecting and Mitigating Training-Hijacking Attacks in Split Learning](https://arxiv.org/abs/2108.09052)
-
-## Label Leakge and its Mitigation
-
-1. (ICLR '22) [Label Leakage and Protection in Two-party Split Learning](https://arxiv.org/abs/2102.08504)
-
-2. [Gradient Inversion Attack: Leaking Private Labels in Two-Party Split Learning](https://arxiv.org/abs/2112.01299)
