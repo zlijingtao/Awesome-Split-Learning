@@ -51,6 +51,10 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 ### Spatio-Temporal Split Learning
 
+1. [Spatio-Temporal Split Learning](https://ieeexplore.ieee.org/abstract/document/9525563)
+
+2. [Spatio-Temporal Split Learning for Autonomous Aerial Surveillance using Urban Air Mobility (UAM) Networks](https://arxiv.org/abs/2111.11856)
+
 3. [Spatio-Temporal Split Learning for Autonomous Aerial Surveillance using Urban Air Mobility (UAM) Networks](https://arxiv.org/abs/2111.11856)
 
 ## [Evaluation Work](#evaluation-work)
