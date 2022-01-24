@@ -1,4 +1,4 @@
-# Awesome Split Learning
+# Awesome-Split-Learning
 A incomplete survey for Split Learning (comprehensive enough) and Federated Learning (only most representative works).
 
 This list covers most Split Learning works. We also include some Federated Learning works for a easy comparison with SL - are just a sub-list of https://github.com/chaoyanghe/Awesome-Federated-Learning.
