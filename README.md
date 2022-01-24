@@ -26,7 +26,7 @@ This list covers most Split Learning works. We also include some Federated Learn
 
 *** Updated at 2022/1/23 ***
 
-## [Split Learning Schemes](#split-learning-schemes)
+<h2 id="#split-learning-schemes">Split Learning Schemes</h2>
 
 ### Sequential Split Learning (Original)
 1. [Distributed learning of deep neural network over multiple agents](https://www.sciencedirect.com/science/article/abs/pii/S1084804518301590?via%3Dihub)
@@ -59,7 +59,7 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 2. [Gradient Inversion Attack: Leaking Private Labels in Two-Party Split Learning](https://arxiv.org/abs/2112.01299)
 
-## [Evaluation Work](#evaluation-work)
+<h2 id="#evaluation-work">Evaluation Work</h2>
 
 1. [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://arxiv.org/abs/2003.13376)
 
@@ -67,11 +67,11 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 3. [Advancements of Federated Learning Towards Privacy Preservation: From Federated Learning to Split Learning](https://link.springer.com/chapter/10.1007/978-3-030-70604-3_4)
 
-## [Communication Reduction](#communication-reduction)
+<h2 id="#communication-reduction">Communication Reduction</h2>
 
 1. [Communication-Efficient Multimodal Split Learning for mmWave Received Power Prediction](https://ieeexplore.ieee.org/abstract/document/9026781?)
 
-## [Input Leakge](#input-leakge)
+<h2 id="#input-leakge">Input Leakge</h2>
 
 ### HBC Server
 1. (CCS '15) [Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures](https://dl.acm.org/doi/abs/10.1145/2810103.2813677)
@@ -87,8 +87,7 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 1. (CCS '21) [Unleashing the Tiger: Inference Attacks on Split Learning](https://dl.acm.org/doi/abs/10.1145/3460120.3485259?)
 
-## [Input Leakge Mitigation](#input-leakge-mitigation)
-
+<h2 id="#input-leakge-mitigation">Input Leakge Mitigation</h2>
 ### HBC Server
 
 1. (Asia-CCS '20, increasing depth and differential privacy) [Can We Use Split Learning on 1D CNN Models for Privacy Preserving Training?](https://dl.acm.org/doi/abs/10.1145/3320269.3384740?)
