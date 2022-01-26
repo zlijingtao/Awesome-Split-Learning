@@ -3,7 +3,7 @@ A incomplete survey for Split Learning (comprehensive enough) and Federated Lear
 
 This list covers most Split Learning works. We also include some Federated Learning works for a easy comparison with SL - are just a sub-list of https://github.com/chaoyanghe/Awesome-Federated-Learning.
 
-*** Updated at 2022/1/23 ***
+*** Updated at 2022/1/26 ***
 
 ## Category
 - ### [Split Learning Schemes](#split-learning-schemes-1)
@@ -24,7 +24,7 @@ This list covers most Split Learning works. We also include some Federated Learn
     - #### Malicious Server
 
 
-*** Updated at 2022/1/23 ***
+*** Updated at 2022/1/26 ***
 
 # Split Learning
 
@@ -70,6 +70,10 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 4. [FedV: Privacy-Preserving Federated Learning over Vertically Partitioned Data](https://arxiv.org/abs/2103.03918)
 
+### Other Split Learning Variants
+
+1. (NeurIPS '20) [Group knowledge transfer: Federated learning of large cnns at the edge](https://arxiv.org/abs/2007.14513)
+
 <h2 id="#evaluation-work">Evaluation Work</h2>
 
 1. [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://arxiv.org/abs/2003.13376)
@@ -81,10 +85,6 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 4. [Triad of Split Learning: Privacy, Accuracy, and Performance](https://ieeexplore.ieee.org/abstract/document/9620846)
 
 5. [Computational Privacy with Split Learning: Benchmarking of Algorithmic Defenses against Reconstruction Attacks](https://dspace.mit.edu/handle/1721.1/139497)
-
-### Other Split Learning Variants
-
-1. (NeurIPS '20) [Group knowledge transfer: Federated learning of large cnns at the edge](https://arxiv.org/abs/2007.14513)
 
 <h2 id="#communication-reduction">Communication Reduction</h2>
 
@@ -99,6 +99,7 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 <h2 id="#input-leakge">Input Leakage</h2>
 
 ### HBC Server
+
 1. (CCS '15) [Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures](https://dl.acm.org/doi/abs/10.1145/2810103.2813677)
 
 2. (Asia-CCS '20) [Can We Use Split Learning on 1D CNN Models for Privacy Preserving Training?](https://dl.acm.org/doi/abs/10.1145/3320269.3384740?)
