@@ -113,6 +113,8 @@ without sharing raw patient data](https://arxiv.org/pdf/1812.00564.pdf)
 
 1. (CCS '21) [Unleashing the Tiger: Inference Attacks on Split Learning](https://dl.acm.org/doi/abs/10.1145/3460120.3485259?)
 
+2. (AAAI workshop) [Feature Space Hijacking Attacks against Differentially Private Split Learning](https://arxiv.org/abs/2201.04018?context=cs.AI)
+
 <h2 id="#input-leakge-mitigation">Input Leakage Mitigation</h2>
 
 ### HBC Server
