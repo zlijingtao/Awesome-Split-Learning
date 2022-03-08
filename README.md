@@ -3,7 +3,7 @@ A incomplete survey for Split Learning (comprehensive enough) and Federated Lear
 
 This list covers most Split Learning works. We also include some Federated Learning works for a easy comparison with SL - are just a sub-list of https://github.com/chaoyanghe/Awesome-Federated-Learning.
 
-*** Updated at 2022/1/26 ***
+*** Updated at 2022/3/7 ***
 
 ## Category
 - ### [Split Learning Schemes](#split-learning-schemes-1)
